@@ -27,4 +27,4 @@ function sumar(a,b) {
 }
 
 sumar(1,2);
-//Duelve la suma de 1 + 2, que es 3 
+//Duelve la suma de 1 + 2, que es 36 
