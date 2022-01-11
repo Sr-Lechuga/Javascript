@@ -19,3 +19,21 @@ var itemName = items.map(function (item) {
     return item.name
 });
 /*Returns a filtered array with the name of articles*/
+
+//Finding
+var itemFound = items.find(function (item) {
+    return item.name === "Laptop";
+});
+/*Returns an array with the item found, if exist */
+
+//For each
+items.forEach(function (item) {
+   console.log(item.name); 
+});
+/*Return a list of names of the items in the array*/
+
+//Some
+var cheapItems = items.some(function (item) {
+   return item.cost <= 100; 
+});
+/*Returns if there are items that accomplish the condition or not (T/F) */
