@@ -18,3 +18,10 @@ for(var student of students){
 students.forEach(element => {
     greetStudents(element);
 });
+
+//With while
+while (students.length > 0) {
+    console.log(students);
+    var student = students.shift(); //retrives first element
+    greetStudents(student);
+}
